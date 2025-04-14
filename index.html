@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batalha de Palavras Mágicas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Lato:wght@300;500&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-image"></div>
+    <div class="container">
+        <h1>Batalha de Palavras Mágicas</h1>
+        <p>Insira suas palavras mágicas abaixo e ordene-as para criar poderosos feitiços!</p>
+
+        <div class="input-group">
+            <input type="text" id="palavrasInput" placeholder="Ex: dragão elfo feiticeiro mago unicórnio">
+        </div>
+
+        <div class="buttons-container">
+            <div class="button-container-2" id="ordenarBtnContainer">
+                <span class="mas">Ordenar</span>
+                <button type="button" name="Hover">Ordenar</button>
+            </div>
+
+            <div class="button-container-2 reset" id="resetarBtnContainer">
+                <span class="mas">Resetar</span>
+                <button type="button" name="Hover">Resetar</button>
+            </div>
+        </div>
+
+        <div class="resultado-container">
+            <h2>Resultado do Feitiço:</h2>
+            <div id="resultado" class="resultado-texto"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
